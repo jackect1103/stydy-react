@@ -1,0 +1,9 @@
+.Main{
+  display: flex;
+  min-height: 100vh;
+}
+
+.button{
+  width: 250px;
+  line-height: 25px;
+}
