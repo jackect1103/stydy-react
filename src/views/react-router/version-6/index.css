@@ -1,3 +1,10 @@
 .difference{
   width: 100%;
+  padding:10px;
+  box-sizing: border-box;
+}
+.difference-title{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom:10px;
 }
