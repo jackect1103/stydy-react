@@ -1,17 +1,17 @@
 /*
  * @Author: your name
  * @Date: 2022-01-13 16:14:36
- * @LastEditTime: 2022-02-18 15:28:26
+ * @LastEditTime: 2022-02-19 10:31:31
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \react-example\src\views\index.js
  */
 import React, { Component } from 'react'
-import { BrowserRouter as Router , useRoutes } from 'react-router-dom'
+import { BrowserRouter as Router , useRoutes,Outlet } from 'react-router-dom'
 
 import Sider from '../baseUI/sider/index'
 import Header from '../baseUI/header/index'
-import RouteElement from './react-router/version-6/routerConfig'
+import RouteElement from './react-router/version-6/constant/routerConfig'
 import './index.css'
 
 function RouteElements() {
@@ -32,6 +32,7 @@ export default class Home extends Component {
               https://stackoverflow.com/questions/69854011/matched-leaf-route-at-location-does-not-have-an-element
             */}
             <RouteElements/>
+            <Outlet></Outlet>
           </div>
           
         </Router>
