@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2022-02-18 10:12:40
- * @LastEditTime: 2022-02-18 15:41:55
+ * @LastEditTime: 2022-02-21 16:20:17
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AEonst 
  * @FilePath: \react-example\src\components\sider-com\data.js
@@ -19,11 +19,8 @@ const menuList = [{
 }, {
   id: nanoid(),
   title: 'react-hooks模式',
-  children: [{
-    id: nanoid(),
-    title: 'useEffect ',
-    pathname:'useEffect'
-  }]
+  pathname:'react-hooks',
+  children: []
 }, {
   id: nanoid(),
   title: 'react-router',

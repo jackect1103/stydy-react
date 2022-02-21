@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2022-02-18 13:25:54
- * @LastEditTime: 2022-02-19 15:18:37
+ * @LastEditTime: 2022-02-21 17:17:40
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \react-example\src\views\react-router\version-6\routerConfig.js
@@ -17,6 +17,28 @@ const RouteElement = [
       {
         path: 'life-cycle',
         element: <routersPath.LifeCycle/>
+      }
+    ]
+  },
+  {
+    path: '/react-hooks',
+    element: <routersPath.ReactHooks />,
+    children: [
+      {
+        path: 'use-state',
+        element: <routersPath.UseState/>
+      },
+      {
+        path: 'use-effect',
+        element: <routersPath.UseEffect/>
+      },
+      {
+        path: 'use-layout-effect',
+        element: <routersPath.UseLayoutEffect/>
+      },
+      {
+        path: 'use-ref',
+        element: <routersPath.UseRef/>
       }
     ]
   },
