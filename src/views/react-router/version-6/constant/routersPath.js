@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2022-02-19 11:06:25
- * @LastEditTime: 2022-02-21 17:17:23
+ * @LastEditTime: 2022-02-22 16:32:16
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \react-example\src\views\react-router\version-6\constant\routersPath.js
@@ -13,6 +13,8 @@ import UseState from "../../../hooks-model/useState/index.jsx";
 import UseEffect from "../../../hooks-model/useEffect/index.jsx";
 import UseLayoutEffect from "../../../hooks-model/useLayoutEffect/index.jsx";
 import UseRef from "../../../hooks-model/useRef/index.jsx";
+import UseContext from "../../../hooks-model/useContext/index.jsx";
+import UseReducer from "../../../hooks-model/useReducer/index.jsx";
 
 import ReactRouterV6 from '../index.jsx'
 import SubRoute from '../pages/sub-route'
@@ -34,6 +36,8 @@ const routers = {
   UseEffect,
   UseLayoutEffect,
   UseRef,
+  UseContext,
+  UseReducer,
 
   // 路由-v6版本
   ReactRouterV6,
