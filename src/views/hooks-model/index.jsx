@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2022-02-21 14:31:55
- * @LastEditTime: 2022-02-22 16:32:04
+ * @LastEditTime: 2022-02-23 09:15:11
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \react-example\src\views\hooks-model\index.jsx
@@ -22,7 +22,7 @@ const ReactHooks = () =>{
         <li><Link to="use-state">1、useState</Link></li>
         <li><Link to="use-effect">2、useEffect</Link></li>
         <li><Link to="use-layout-effect">3、useLayoutEffect</Link></li>
-        <li><Link to="use-ref">4、useReft</Link></li>
+        <li><Link to="use-ref">4、useRef</Link></li>
         <li><Link to="use-context">5、useContext</Link></li>
         <li><Link to="use-reducer">6、useReducer </Link></li>
       </ul>

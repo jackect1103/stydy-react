@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2022-02-18 11:02:25
- * @LastEditTime: 2022-02-22 14:21:09
+ * @LastEditTime: 2022-02-23 09:16:50
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \react-example\src\views\hooks-model\useEffect\index.jsx
@@ -33,7 +33,7 @@ const UseEffect = () => {
         <Card style={{ margin:10 }} hoverable>
           <b>useEffect使用方式：接收两个参数，第一个副作用回调函数，第二个是监听对象</b>
           <p>个人理解：有点类似vue中的watch监听器.</p>
-          <b>执行顺序 组件更新挂载完成 -> 浏览器dom 绘制完成 -> 执行useEffect回调 。</b>
+          <b>执行顺序 组件更新挂载完成 -> 浏览器dom 绘制完成 -> <span style={{color:'red'}}>执行useEffect回调</span> 。</b>
           <p>区别：</p>
           <ul>
             <li>1、如果我们需要在组件<b>初次渲染</b>的时候请求数据，那么useEffect可以充当class组件中的 componentDidMount</li>

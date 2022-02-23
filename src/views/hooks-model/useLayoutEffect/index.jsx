@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2022-02-18 11:02:25
- * @LastEditTime: 2022-02-22 14:21:22
+ * @LastEditTime: 2022-02-23 09:16:02
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \react-example\src\views\hooks-model\useEffect\index.jsx
@@ -27,7 +27,7 @@ const UseEffect = () => {
         <Card style={{ margin:10 }} hoverable>
           <b>useLayoutEffect使用方式：接收两个参数，第一个副作用回调函数，第二个是监听对象</b>
           <p>个人理解：有点类似vue中的watch监听器.</p>
-          <b>useLayoutEffect 执行顺序 组件更新挂载完成 -> 执行useLayoutEffect回调-> 浏览器dom 绘制完成</b>
+          <b>useLayoutEffect 执行顺序 组件更新挂载完成 -> <span style={{color:'red'}}>执行useLayoutEffect回调</span>-> 浏览器dom 绘制完成</b>
 
         </Card>
         <hr/>
