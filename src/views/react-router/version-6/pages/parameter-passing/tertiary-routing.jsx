@@ -1,12 +1,12 @@
 /*
  * @Author: your name
  * @Date: 2022-02-19 11:04:26
- * @LastEditTime: 2022-02-21 10:40:41
+ * @LastEditTime: 2022-02-23 16:42:28
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \react-example\src\views\react-router\version-6\pages\parameter-passing\tertiary-routing.jsx
  */
-import { useNavigate, useParams } from "react-router-dom";
+import {  useParams } from "react-router-dom";
 const TertiaryRouting = () => {
   let params = useParams();
   console.log('三级路由', params)

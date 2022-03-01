@@ -1,11 +1,12 @@
 /*
  * @Author: your name
  * @Date: 2022-02-19 11:06:25
- * @LastEditTime: 2022-02-22 16:32:16
+ * @LastEditTime: 2022-02-25 16:06:32
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \react-example\src\views\react-router\version-6\constant\routersPath.js
  */
+import ReactDemo from '../../../class-model/react-demo/index'
 import LifeCycle from '../../../class-model/life-cycle/index'
 
 import ReactHooks from '../../../hooks-model/index.jsx'
@@ -27,6 +28,7 @@ import ReactRedux from '../../../react-redux/index.jsx'
 import Pages_404 from '../../../404'
 
 const routers = {
+  ReactDemo,
   // 生命周期
   LifeCycle,
   

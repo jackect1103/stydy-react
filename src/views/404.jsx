@@ -10,7 +10,7 @@ import img_404 from "../assest/404.jpg";
 import '../App.css'
 const Pages_404 = ()=>{
   return (
-    <img src={img_404} className="pages_404"/>
+    <img src={img_404} className="pages_404" alt="404"/>
   )
 }
 

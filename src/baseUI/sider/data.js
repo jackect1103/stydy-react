@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2022-02-18 10:12:40
- * @LastEditTime: 2022-02-21 16:20:17
+ * @LastEditTime: 2022-02-25 16:03:36
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AEonst 
  * @FilePath: \react-example\src\components\sider-com\data.js
@@ -12,6 +12,10 @@ const menuList = [{
   id: nanoid(),
   title: 'react-class模式', 
   children: [{
+    id: nanoid(),
+    title: '文档demo例子',
+    pathname:'react-demo'
+  },{
     id: nanoid(),
     title: '生命周期',
     pathname:'life-cycle'

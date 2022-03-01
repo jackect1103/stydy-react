@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2022-01-13 16:17:51
- * @LastEditTime: 2022-02-21 16:19:42
+ * @LastEditTime: 2022-02-23 16:40:00
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \react-example\src\components\sider-com\idnex.js
@@ -36,7 +36,7 @@ export default class Sider extends Component {
           menuList.map(item => {
             return (
               item?.children.length === 0 ? (
-                <Menu.Item key="1" icon={<MailOutlined />} key={item.id} >
+                <Menu.Item icon={<MailOutlined />} key={item.id} >
                   <NavLink to={item.pathname}>{item.title}</NavLink>
                 </Menu.Item>
               ) : (
