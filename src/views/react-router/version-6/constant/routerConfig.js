@@ -15,41 +15,54 @@ const RouteElement = [
     children: [
       {
         path: 'react-demo',
-        element: <routersPath.ReactDemo/>
+        element: <routersPath.ReactDemo />
       },
       {
         path: 'life-cycle',
-        element: <routersPath.LifeCycle/>
+        element: <routersPath.LifeCycle />
       }
     ]
   },
   {
-    path: '/react-hooks',
-    element: <routersPath.ReactHooks />,
+    path: '/hooks-model',
     children: [
       {
-        path: 'use-state',
-        element: <routersPath.UseState/>
+        path: 'react-hooks',
+        element: <routersPath.ReactHooks />,
+        children: [
+          {
+            path: 'use-state',
+            element: <routersPath.UseState />
+          },
+          {
+            path: 'use-effect',
+            element: <routersPath.UseEffect />
+          },
+          {
+            path: 'use-layout-effect',
+            element: <routersPath.UseLayoutEffect />
+          },
+          {
+            path: 'use-ref',
+            element: <routersPath.UseRef />
+          },
+          {
+            path: 'use-context',
+            element: <routersPath.UseContext />
+          },
+          {
+            path: 'use-reducer',
+            element: <routersPath.UseReducer />
+          },
+          {
+            path: 'use-callback',
+            element: <routersPath.UseCallback />
+          }
+        ]
       },
       {
-        path: 'use-effect',
-        element: <routersPath.UseEffect/>
-      },
-      {
-        path: 'use-layout-effect',
-        element: <routersPath.UseLayoutEffect/>
-      },
-      {
-        path: 'use-ref',
-        element: <routersPath.UseRef/>
-      },
-      {
-        path: 'use-context',
-        element: <routersPath.UseContext/>
-      },
-      {
-        path: 'use-reducer',
-        element: <routersPath.UseReducer/>
+        path: 'shopping-cart-example',
+        element: <routersPath.ShoppingCartExample />
       }
     ]
   },
@@ -59,23 +72,23 @@ const RouteElement = [
     children: [
       {
         path: 'parameter-passing',
-        element: <routersPath.FirstLevelRouting/>,
-        children:[{
+        element: <routersPath.FirstLevelRouting />,
+        children: [{
           path: ':id',
-          element: <routersPath.SecondaryRouting/>,
-          children:[{
+          element: <routersPath.SecondaryRouting />,
+          children: [{
             path: ':name',
-            element: <routersPath.TertiaryRouting/>,
+            element: <routersPath.TertiaryRouting />,
           }]
         }]
       },
       {
         path: 'default-route',
-        element: <routersPath.LifeCycle/>
+        element: <routersPath.LifeCycle />
       },
       {
         path: 'sub-route',
-        element: <routersPath.SubRoute/>
+        element: <routersPath.SubRoute />
       }
     ]
   },

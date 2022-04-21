@@ -20,12 +20,19 @@ const menuList = [{
     title: '生命周期',
     pathname:'life-cycle'
   }]
-}, {
+},  {
   id: nanoid(),
-  title: 'react-hooks模式',
-  pathname:'react-hooks',
-  children: []
-}, {
+  title: 'hooks模式',
+  children: [{
+    id: nanoid(),
+    title: 'react-hooks模式',
+    pathname:'hooks-model/react-hooks'
+  },{
+    id: nanoid(),
+    title: '购物车例子',
+    pathname:'hooks-model/shopping-cart-example',
+  }, ]
+},{
   id: nanoid(),
   title: 'react-router',
   children: [{

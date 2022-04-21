@@ -1,0 +1,36 @@
+.cart {
+  width: 500px;
+  margin:10px auto;
+}
+
+.item-card {
+ display: flex;
+ align-items: center;
+ width: 100%;
+}
+
+.checkbox-wrap {
+ margin-right: 8px;
+ cursor: pointer;
+}
+
+.item-info {
+ flex: 1;
+ display: flex;
+ justify-content: space-between;
+}
+
+.footer {
+ display: flex;
+ justify-content: space-between;
+}
+
+.check-all {
+ display: flex;
+ align-items: center;
+ cursor: pointer;
+}
+
+.check-all input {
+ margin-right: 8px;
+}

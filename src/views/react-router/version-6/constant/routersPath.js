@@ -16,6 +16,9 @@ import UseLayoutEffect from "../../../hooks-model/useLayoutEffect/index.jsx";
 import UseRef from "../../../hooks-model/useRef/index.jsx";
 import UseContext from "../../../hooks-model/useContext/index.jsx";
 import UseReducer from "../../../hooks-model/useReducer/index.jsx";
+import UseCallback from "../../../hooks-model/useCallback/index.jsx";
+
+import ShoppingCartExample from "../../../hooks-model/shoppingCartExample/index.jsx";
 
 import ReactRouterV6 from '../index.jsx'
 import SubRoute from '../pages/sub-route'
@@ -40,6 +43,9 @@ const routers = {
   UseRef,
   UseContext,
   UseReducer,
+  UseCallback,
+  // 购物车例子
+  ShoppingCartExample,
 
   // 路由-v6版本
   ReactRouterV6,
