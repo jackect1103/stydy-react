@@ -11,7 +11,7 @@ import { BrowserRouter as Router , useRoutes,Outlet } from 'react-router-dom'
 
 import Sider from '../baseUI/sider/index'
 import Header from '../baseUI/header/index'
-import RouteElement from './react-router/version-6/constant/routerConfig'
+import RouteElement from '../router/routerConfig'
 import './index.css'
 
 function RouteElements() {

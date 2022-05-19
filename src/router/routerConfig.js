@@ -97,6 +97,10 @@ const RouteElement = [
     element: <routersPath.ReactRedux />
   },
   {
+    path: '/chatRoom-koa',
+    element: <routersPath.ChatRoomKoa />
+  },
+  {
     path: '/*',
     element: <routersPath.Pages_404 />
   }

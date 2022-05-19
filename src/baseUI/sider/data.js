@@ -48,6 +48,11 @@ const menuList = [{
     title: 'react-redux',
     pathname:'react-redux'
   }]
+}, {
+  id: nanoid(),
+  title: '聊天室',
+  pathname:'chatRoom-koa',
+  children:[]
 }]
 
 export default menuList
