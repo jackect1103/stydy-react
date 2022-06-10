@@ -11,9 +11,14 @@ import ReactDOM from 'react-dom';
 import "antd/dist/antd.css";
 import App from './App';
 import axios from './utils/axios'
+import { Provider } from 'react-redux'
+import store from './store/index.js'
+
 React.Component.prototype.$axios = axios
 ReactDOM.render(
-    <App />,
+  <Provider store={store}>
+    <App />
+  </Provider>,
   document.getElementById('root')
 );
 
