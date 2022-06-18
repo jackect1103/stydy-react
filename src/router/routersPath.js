@@ -13,6 +13,7 @@ import LifeCycle from '../views/class-model/life-cycle/index'
 // ReactHooks
 import ReactHooks from '../views/hooks-model/index.jsx'
 import UseState from "../views/hooks-model/useState/index.jsx";
+import TestUseState from "../views/hooks-model/useState/testUsestate.jsx";
 import UseEffect from "../views/hooks-model/useEffect/index.jsx";
 import UseLayoutEffect from "../views/hooks-model/useLayoutEffect/index.jsx";
 import UseRef from "../views/hooks-model/useRef/index.jsx";
@@ -48,6 +49,7 @@ const routers = {
   // ReactHooks
   ReactHooks,
   UseState,
+  TestUseState,
   UseEffect,
   UseLayoutEffect,
   UseRef,

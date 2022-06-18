@@ -20,6 +20,7 @@ const ReactHooks = () =>{
       <p>以下就是react-hooks主要的api,接下来我会和大家分享一下这些api的用法，以及使用他们的注意事项。</p>
       <ul>
         <li><Link to="use-state">1、useState</Link></li>
+        <li><Link to="test-use-state">1.1、测试useState</Link></li>
         <li>监听数据</li>
         <li><Link to="use-effect">2、useEffect</Link></li>
         <li><Link to="use-layout-effect">3、useLayoutEffect</Link></li>
@@ -32,7 +33,7 @@ const ReactHooks = () =>{
         {/* 性能优化 */}
         <li>性能优化:事件、组件</li>
         <li><Link to="use-callback">7、useCallback [子组件接收父组件的事件的时候，props上的事件引用地址是否改变导致重新触发render]</Link></li>
-        <li><Link to="use-callback">8、useMemo </Link></li>
+        {/* <li><Link to="use-callback">8、useMemo </Link></li> */}
       </ul>
       <hr/>
       <Outlet></Outlet>

@@ -35,6 +35,10 @@ const RouteElement = [
             element: <routersPath.UseState />
           },
           {
+            path: 'test-use-state',
+            element: <routersPath.TestUseState />
+          },
+          {
             path: 'use-effect',
             element: <routersPath.UseEffect />
           },
