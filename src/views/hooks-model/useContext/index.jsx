@@ -21,7 +21,7 @@ const UseContext = () => {
         <p>2、Context 设计目的是为了共享那些对于一个组件树而言是“全局”的数据，</p>
         <h3>使用方法</h3>
         <p>const value = useContext(MyContext);</p>
-        <p>1、先使用 createContext 创建一个 Context对象。</p>
+        <p>1、先使用 createContext 创建一个 Context对象。</p> 
         <p>2、再使用 useContext来接收一个 context 对象（React.createContext 的返回值），并返回该 context 的当前值。
           当前的 context 值由上层组件中距离当前组件最近的 (MyContext.Provider标签) 的 value prop决定。</p>
       </Card>

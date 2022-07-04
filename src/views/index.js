@@ -31,7 +31,9 @@ export default class Home extends Component {
               路由版本问题：
               https://stackoverflow.com/questions/69854011/matched-leaf-route-at-location-does-not-have-an-element
             */}
-            <RouteElements/>
+            {/* <div className='main-contant'> */}
+              <RouteElements/>
+            {/* </div> */}
             <Outlet></Outlet>
           </div>
           

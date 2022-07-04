@@ -12,9 +12,11 @@ import { Card } from 'antd';
 // 产品名称列表
 
 const UseEffect = () => {
+  
     let [name,setName] = useState('hjy')
     let [age,setAge] = useState(18)
     useEffect(() => {
+      debugger
       console.log('我修改了年龄', age)
       /* 事件监听 */
       window.addEventListener('resize', handleResize)
@@ -26,6 +28,7 @@ const UseEffect = () => {
     },[age])
 
     const changeHandle = () => {
+      
       setAge('19')
       setName('agoni')
     }
@@ -34,6 +37,7 @@ const UseEffect = () => {
         console.log('改变页面宽度')
     }
     return (
+      
       <Fragment>
         <Card style={{ margin:10 }} hoverable>
           <b>useEffect使用方式：接收两个参数，第一个副作用回调函数，第二个是监听对象</b>

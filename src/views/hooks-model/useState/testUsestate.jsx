@@ -36,17 +36,16 @@ function TestUseState() {
     const [name, setName] = useState('计数器');
     const [number, setNumber] = useState(0);
 
-    const changeNumber = () => {
-      console.log('setNumber')
+    const changeNumber = (num,event) => {
+      console.log('setNumber',num,event)
       setNumber(number + 1)
-     
     }
     return (
         <>
             <p>{name}:{number}</p>
             <button onClick={() => setName('新计数器' + Date.now())}>新计数器</button>
             <button onClick={() => setNumber(number + 1)}>+1</button>
-            <button onClick={changeNumber}>changeNumber</button>
+            <button onClick={(e) => changeNumber(1,e)}>changeNumber</button>
         </>
     )
 }

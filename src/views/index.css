@@ -1,9 +1,14 @@
 .Main{
   min-height: 100vh;
   max-height: 100vh;
+  overflow: hidden;
 }
 .contant{
   display: flex;
   width: 100%;
   min-height: calc(100vh - 60px);
+}
+.main-contant{
+  min-height: calc(100vh - 60px);
+  overflow-y: scroll;
 }
